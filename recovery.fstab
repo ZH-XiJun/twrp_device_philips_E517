@@ -1,4 +1,4 @@
-/storage/sdcard0   vfat     /dev/block/platform/soc/mmcblk1p1                flags=display=sdcard
+/external_sd       vfat     /dev/block/platform/soc/mmcblk1p1                flags=display=External_SD;storage;wipeingui;removable
 /system            ext4     /dev/block/platform/soc/by-name/system           flags=display=system
 /vendor            ext4     /dev/block/platform/soc/by-name/vendor           flags=display=vendor
 /data              ext4     /dev/block/platform/soc/by-name/userdata         flags=display=data
