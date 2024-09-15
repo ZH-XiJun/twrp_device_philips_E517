@@ -69,6 +69,9 @@ TARGET_BOARD_PLATFORM := sp9820e
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Physical keypad support
+TARGET_RECOVERY_UI_LIB := librecovery_ui_custom
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
 
