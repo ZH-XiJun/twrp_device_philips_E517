@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += device/philips/E517/overlay
 
 LOCAL_PATH := device/philips/E517
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
+	LOCAL_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
